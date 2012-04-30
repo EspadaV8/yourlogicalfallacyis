@@ -1,0 +1,942 @@
+/*  
+	CSS Reset by Eric Meyer - Released under Public Domain
+    http://meyerweb.com/eric/tools/css/reset/
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td 
+                  {margin: 0;padding: 0;border: 0;outline: 0;
+                  font-size: 100%;vertical-align: baseline;
+                  background: transparent;}
+body              {line-height: 1;}
+ol, ul            {list-style: none;}
+blockquote, q     {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';	content: none;}
+:focus            {outline: 0;}
+ins               {text-decoration: none;}
+del               {text-decoration: line-through;}
+table             {border-collapse: collapse;border-spacing: 0;}
+
+html, body{
+	height: 100%;
+	position: relative;
+	font-family: 'M300', Georgia, "Times New Roman", Times, serif;
+	font-size: 14.5px;
+	text-align: center;
+	color: #58595B;
+	letter-spacing: -0.04em;
+	cursor: default;
+}
+
+section.bg{
+	position: absolute;
+	width: 100%;
+}
+
+section.bg .top{
+	background: #232323;
+	height: 100px;
+}
+
+section.bg .bottom{
+	background: #161616;
+	height: 9px;
+}
+
+.content{
+	width: 960px;
+	min-height: 570px;
+	margin: 0 auto;
+	background: url('../assets/skyline.jpg') no-repeat center 15px;
+	height: 100%;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+
+	-webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+
+}
+
+.content.home{
+	background-position: center 100px;
+}
+
+header{
+	position: relative;
+	background: url('../assets/header.png') no-repeat center top;
+	width: 100%;
+	height: 116px;
+}
+
+header a.title{
+	margin: 0 auto;
+	position: relative;
+	background: url('../assets/title.png') no-repeat center top;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.home a.title{
+	background: url('../assets/title-home.png') no-repeat center top;
+}
+
+.fallacy a.title{
+	background: url('../assets/title-fallacy.png') no-repeat center top;
+}
+
+#content-inner{
+	width: 750px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.missing #content-inner{
+	margin: 80px auto 40px;
+}
+
+.home #content-inner{
+	background: url('../assets/hero.png') no-repeat center 18px;
+}
+
+.home #content-inner nav{
+	min-height: 285px;
+}
+
+.home #content-inner nav ul{
+	width: 200px;
+}
+
+nav .left{
+	float: left;
+}
+
+nav .right{
+	float: right;
+}
+
+.home #content-inner nav ul li{
+	float: left;
+	margin: 11px;
+}
+
+.home #content-inner nav li a span{
+	float: left;
+	display: block;
+	width: 44px;
+	height: 44px;
+	background: url('../assets/icons.png') top left no-repeat;
+}
+
+.home #content-inner nav li a.playing span{
+	background: url('../assets/play.png') top left no-repeat !important;
+}
+
+.home #content-inner nav li a[title="strawman"]:hover span{
+	background-position: 0 -44px;
+}
+
+.home #content-inner nav li a[title="false cause"] span{
+	background-position: -44px 0;
+}
+
+.home #content-inner nav li a[title="false cause"]:hover span{
+	background-position: -44px -44px;
+}
+
+.home #content-inner nav li a[title="false cause"] span{ 
+	background-position: -44px 0;
+}
+.home #content-inner nav li a[title="false cause"]:hover span{ 
+	background-position: -44px bottom;
+}
+
+.home #content-inner nav li a[title="appeal to emotion"] span{ 
+	background-position: -88px 0;
+}
+.home #content-inner nav li a[title="appeal to emotion"]:hover span{ 
+	background-position: -88px bottom;
+}
+
+.home #content-inner nav li a[title="the fallacy fallacy"] span{ 
+	background-position: -132px 0;
+}
+.home #content-inner nav li a[title="the fallacy fallacy"]:hover span{ 
+	background-position: -132px bottom;
+}
+
+.home #content-inner nav li a[title="slippery slope"] span{ 
+	background-position: -176px 0;
+}
+.home #content-inner nav li a[title="slippery slope"]:hover span{ 
+	background-position: -176px bottom;
+}
+
+.home #content-inner nav li a[title="ad hominem"] span{ 
+	background-position: -220px 0;
+}
+.home #content-inner nav li a[title="ad hominem"]:hover span{ 
+	background-position: -220px bottom;
+}
+
+.home #content-inner nav li a[title="tu quoque"] span{ 
+	background-position: -264px 0;
+}
+.home #content-inner nav li a[title="tu quoque"]:hover span{ 
+	background-position: -264px bottom;
+}
+
+.home #content-inner nav li a[title="personal incredulity"] span{ 
+	background-position: -308px 0;
+}
+.home #content-inner nav li a[title="personal incredulity"]:hover span{ 
+	background-position: -308px bottom;
+}
+
+.home #content-inner nav li a[title="special pleading"] span{ 
+	background-position: -352px 0;
+}
+.home #content-inner nav li a[title="special pleading"]:hover span{ 
+	background-position: -352px bottom;
+}
+
+.home #content-inner nav li a[title="loaded question"] span{ 
+	background-position: -396px 0;
+}
+.home #content-inner nav li a[title="loaded question"]:hover span{ 
+	background-position: -396px bottom;
+}
+
+.home #content-inner nav li a[title="burden of proof"] span{ 
+	background-position: -440px 0;
+}
+.home #content-inner nav li a[title="burden of proof"]:hover span{ 
+	background-position: -440px bottom;
+}
+
+.home #content-inner nav li a[title="ambiguity"] span{ 
+	background-position: -484px 0;
+}
+.home #content-inner nav li a[title="ambiguity"]:hover span{ 
+	background-position: -484px bottom;
+}
+
+.home #content-inner nav li a[title="the gambler's fallacy"] span{ 
+	background-position: -528px 0;
+}
+.home #content-inner nav li a[title="the gambler's fallacy"]:hover span{ 
+	background-position: -528px bottom;
+}
+
+.home #content-inner nav li a[title="bandwagon"] span{ 
+	background-position: -572px 0;
+}
+.home #content-inner nav li a[title="bandwagon"]:hover span{ 
+	background-position: -572px bottom;
+}
+
+.home #content-inner nav li a[title="appeal to authority"] span{ 
+	background-position: -616px 0;
+}
+.home #content-inner nav li a[title="appeal to authority"]:hover span{ 
+	background-position: -616px bottom;
+}
+
+.home #content-inner nav li a[title="composition/ division"] span{ 
+	background-position: -660px 0;
+}
+.home #content-inner nav li a[title="composition/ division"]:hover span{ 
+	background-position: -660px bottom;
+}
+
+.home #content-inner nav li a[title="no true scotsman"] span{ 
+	background-position: -704px 0;
+}
+.home #content-inner nav li a[title="no true scotsman"]:hover span{ 
+	background-position: -704px bottom;
+}
+
+.home #content-inner nav li a[title="genetic"] span{ 
+	background-position: -748px 0;
+}
+.home #content-inner nav li a[title="genetic"]:hover span{ 
+	background-position: -748px bottom;
+}
+
+.home #content-inner nav li a[title="black-or-white"] span{ 
+	background-position: -792px 0;
+}
+.home #content-inner nav li a[title="black-or-white"]:hover span{ 
+	background-position: -792px bottom;
+}
+
+.home #content-inner nav li a[title="begging the question"] span{ 
+	background-position: -836px 0;
+}
+.home #content-inner nav li a[title="begging the question"]:hover span{ 
+	background-position: -836px bottom;
+}
+
+.home #content-inner nav li a[title="appeal to nature"] span{ 
+	background-position: -880px 0;
+}
+.home #content-inner nav li a[title="appeal to nature"]:hover span{ 
+	background-position: -880px bottom;
+}
+
+.home #content-inner nav li a[title="anecdotal"] span{ 
+	background-position: -924px 0;
+}
+.home #content-inner nav li a[title="anecdotal"]:hover span{ 
+	background-position: -924px bottom;
+}
+
+.home #content-inner nav li a[title="the texas sharpshooter"] span{ 
+	background-position: -968px 0;
+}
+.home #content-inner nav li a[title="the texas sharpshooter"]:hover span{ 
+	background-position: -968px bottom;
+}
+
+.home #content-inner nav li a[title="middle ground"] span{ 
+	background-position: -1012px 0;
+}
+.home #content-inner nav li a[title="middle ground"]:hover span{ 
+	background-position: -1012px bottom;
+}
+
+#content, article, h1, h2, h3{
+	-webkit-user-select: auto;
+	-moz-user-select: text;
+	user-select: auto;
+}
+
+h1{
+	font-family: 'M900', Georgia, "Times New Roman", Times, serif;
+	letter-spacing: -1px;
+	font-size: 39px;
+	color: #231F20;
+	padding: 10px 0 5px;
+	font-weight: 400;
+}
+
+h2{
+	font-family: 'M900', Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #6D6E71;
+	font-weight: 400;
+	padding: 5px 0;
+}
+
+h3{
+	font-family: 'M700', Georgia, "Times New Roman", Times, serif;
+	font-size: 17px;
+	color: #2B2524;
+	font-weight: 400;
+	width: 70%;
+	margin: 0 auto;
+	letter-spacing: -1px;
+}
+
+.home h1{
+	height: 42px;
+}
+
+.home h3{
+	height: 55px;
+}
+
+.home span.sep{
+	display: block;
+	width: 80%;
+	border-bottom: 1px solid #B9BABC;
+	margin: 0 auto;
+}
+
+article{
+	padding: 20px;
+	line-height: 24px;
+	letter-spacing: 0;
+}
+
+article p{
+	padding-bottom: 10px;
+}
+
+article p.note{
+	display: none;
+}
+
+a{
+	font-family: 'M700', Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: inherit;
+}
+
+footer{
+	color: #b9babc;
+	font-size: 13px;
+	line-height: 14px;
+	margin: 40px 0 27px;
+	padding-bottom: 27px;
+}
+
+footer nav.minor ul{
+	padding: 0 0 30px 67px;
+	height: 130px;
+}
+
+footer nav.minor li{
+	border: 0 solid #b9babc;
+	width: 195px;
+	float: left;
+	padding: 0 40px;
+}
+
+footer nav.minor li.poster{
+	border-width: 0 1px;
+}
+
+footer .minor h2{
+	padding-top: 80px;
+	text-decoration: none;
+}
+
+footer .minor h2:hover{
+	text-decoration: none;
+}
+
+footer .minor .contact h2{
+	background: url('../assets/contact.png') center top no-repeat;
+}
+
+footer .minor .poster h2{
+	background: url('../assets/poster.png') center top no-repeat;
+}
+
+footer .minor .donate h2{
+	background: url('../assets/donate.png') center top no-repeat;
+}
+
+footer .major{
+	width: 792px;
+	height: 18px;
+	margin: 0 auto 10px;
+}
+
+footer nav.major ul{
+	float: none;
+}
+
+footer nav.major li{
+	float: left;
+}
+
+footer nav.major a span{
+	display: block;
+	width: 33px;
+	height: 18px;
+	background: url('../assets/icons-footer.png') no-repeat;
+}
+
+footer nav.major li a[title="strawman"] span{
+	background-position: 0 0;
+}
+footer nav.major li a[title="false cause"] span{
+	background-position: -33px 0;
+}
+footer nav.major li a[title="appeal to emotion"] span{ 
+	background-position: -66px 0;
+}
+footer nav.major li a[title="the fallacy fallacy"] span{ 
+	background-position: -99px 0;
+}
+footer nav.major li a[title="slippery slope"] span{ 
+	background-position: -132px 0;
+}
+footer nav.major li a[title="ad hominem"] span{ 
+	background-position: -165px 0;
+}
+footer nav.major li a[title="tu quoque"] span{ 
+	background-position: -198px 0;
+}
+footer nav.major li a[title="personal incredulity"] span{ 
+	background-position: -231px 0;
+}
+footer nav.major li a[title="special pleading"] span{ 
+	background-position: -264px 0;
+}
+footer nav.major li a[title="loaded question"] span{ 
+	background-position: -297px 0;
+}
+footer nav.major li a[title="burden of proof"] span{ 
+	background-position: -330px 0;
+}
+footer nav.major li a[title="ambiguity"] span{ 
+	background-position: -363px 0;
+}
+footer nav.major li a[title="the gambler's fallacy"] span{ 
+	background-position: -396px 0;
+}
+footer nav.major li a[title="bandwagon"] span{ 
+	background-position: -429px 0;
+}
+footer nav.major li a[title="appeal to authority"] span{ 
+	background-position: -462px 0;
+}
+footer nav.major li a[title="composition/ division"] span{ 
+	background-position: -495px 0;
+}
+footer nav.major li a[title="no true scotsman"] span{ 
+	background-position: -528px 0;
+}
+footer nav.major li a[title="genetic"] span{ 
+	background-position: -561px 0;
+}
+footer nav.major li a[title="black-or-white"] span{ 
+	background-position: -594px 0;
+}
+footer nav.major li a[title="begging the question"] span{ 
+	background-position: -627px 0;
+}
+footer nav.major li a[title="appeal to nature"] span{ 
+	background-position: -660px 0;
+}
+footer nav.major li a[title="anecdotal"] span{ 
+	background-position: -693px 0;
+}
+footer nav.major li a[title="the texas sharpshooter"] span{ 
+	background-position: -726px 0;
+}
+footer nav.major li a[title="middle ground"] span{ 
+	background-position: -759px 0;
+}
+
+footer span.credits{
+	display: block;
+	clear: both;
+	font-size: 11px;
+}
+
+footer span.credits img{
+	width: 40px;
+	margin: -2px 2px;
+}
+
+footer section{
+	padding-top: 20px;
+}
+
+a.share{
+	display: inline-block;
+	height: 15px;
+	background: url('../assets/fb-share.png') no-repeat;
+	padding-left: 61px;
+}
+
+a.share:hover{
+	background-position: left bottom;
+}
+
+.home .share-note a.share{
+	margin-bottom: -2px;
+}
+
+.home footer section{
+	display: none;
+}
+
+footer section span{
+	font-family: 'M700',Georgia,"Times New Roman",Times,serif;
+	font-size: 14px;
+	margin-top: 1px;
+	color: #6D6E71;
+	display: none;
+}
+
+.fallacy footer section span, .poster footer section span{
+	display: block;
+}
+
+/* Fallacy */
+
+#content-inner h1, #content-inner h1 a{
+	font-size: 44px;
+	color: #231F20;
+	text-decoration: none;
+	font-family: 'M900',Georgia,"Times New Roman",Times,serif;
+	letter-spacing: -2px;
+}
+
+.fallacy h3{
+	font-size: 21px;
+	color: #2B2524;
+	width: 90%;
+}
+
+.fallacy article p.example{
+	font-family: 'M700', Georgia, "Times New Roman", Times, serif;
+	color: #333;
+}
+
+.fallacy #content-inner{
+	background: none !important;
+	padding-top: 136px;
+}
+
+.fallacy #content-inner .inter-fallacy{
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+	/*transition-delay: 0.5s;
+	-ms-transition-delay: 0.5s;
+	-moz-transition-delay: 0.5s;
+	-webkit-transition-delay: 0.5s;
+	-o-transition-delay: 0.5s;*/
+	background: url('../assets/icon-strawman.png') no-repeat center center;
+	background-size: 0px;
+	height: 100px;
+	opacity: 0;
+	display: block;
+	margin: 0 10%;
+    position: absolute;
+    top: 25px;
+    width: 80%;
+}
+
+.inter-fallacy .arrows a{
+	display: block;
+	width: 18px;
+	height: 21px;
+	background: url('../assets/arrows.png') no-repeat;
+}
+
+.inter-fallacy .arrows .left a{
+	background-position: left bottom;
+}
+
+.inter-fallacy span{
+	display: none;
+}
+
+.fallacy #content-inner .inter-fallacy.showing{
+	background-size: 100px;
+	opacity: 1;
+}
+
+.fallacy #content-inner .inter-fallacy .arrows{
+	margin: 40px 0;
+}
+
+.fallacy #content-inner.strawman .inter-fallacy{
+	background-image: url('../assets/icon-strawman.png');
+}
+.fallacy #content-inner.false-cause .inter-fallacy{
+	background-image: url('../assets/icon-false-cause.png');
+}
+.fallacy #content-inner.appeal-to-emotion .inter-fallacy{ 
+	background-image: url('../assets/icon-appeal-to-emotion.png');
+}
+.fallacy #content-inner.the-fallacy-fallacy .inter-fallacy{ 
+	background-image: url('../assets/icon-the-fallacy-fallacy.png');
+}
+.fallacy #content-inner.slippery-slope .inter-fallacy{ 
+	background-image: url('../assets/icon-slippery-slope.png');
+}
+.fallacy #content-inner.ad-hominem .inter-fallacy{ 
+	background-image: url('../assets/icon-ad-hominem.png');
+}
+.fallacy #content-inner.tu-quoque .inter-fallacy{ 
+	background-image: url('../assets/icon-tu-quoque.png');
+}
+.fallacy #content-inner.personal-incredulity .inter-fallacy{ 
+	background-image: url('../assets/icon-personal-incredulity.png');
+}
+.fallacy #content-inner.special-pleading .inter-fallacy{ 
+	background-image: url('../assets/icon-special-pleading.png');
+}
+.fallacy #content-inner.loaded-question .inter-fallacy{ 
+	background-image: url('../assets/icon-loaded-question.png');
+}
+.fallacy #content-inner.burden-of-proof .inter-fallacy{ 
+	background-image: url('../assets/icon-burden-of-proof.png');
+}
+.fallacy #content-inner.ambiguity .inter-fallacy{ 
+	background-image: url('../assets/icon-ambiguity.png');
+}
+.fallacy #content-inner.the-gamblers-fallacy .inter-fallacy{ 
+	background-image: url('../assets/icon-the-gamblers-fallacy.png');
+}
+.fallacy #content-inner.bandwagon .inter-fallacy{ 
+	background-image: url('../assets/icon-bandwagon.png');
+}
+.fallacy #content-inner.appeal-to-authority .inter-fallacy{ 
+	background-image: url('../assets/icon-appeal-to-authority.png');
+}
+.fallacy #content-inner.composition-division .inter-fallacy{ 
+	background-image: url('../assets/icon-composition-division.png');
+}
+.fallacy #content-inner.no-true-scotsman .inter-fallacy{ 
+	background-image: url('../assets/icon-no-true-scotsman.png');
+}
+.fallacy #content-inner.genetic .inter-fallacy{ 
+	background-image: url('../assets/icon-genetic.png');
+}
+.fallacy #content-inner.black-or-white .inter-fallacy{ 
+	background-image: url('../assets/icon-black-or-white.png');
+}
+.fallacy #content-inner.begging-the-question .inter-fallacy{ 
+	background-image: url('../assets/icon-begging-the-question.png');
+}
+.fallacy #content-inner.appeal-to-nature .inter-fallacy{ 
+	background-image: url('../assets/icon-appeal-to-nature.png');
+}
+.fallacy #content-inner.anecdotal .inter-fallacy{ 
+	background-image: url('../assets/icon-anecdotal.png');
+}
+.fallacy #content-inner.the-texas-sharpshooter .inter-fallacy{ 
+	background-image: url('../assets/icon-the-texas-sharpshooter.png');
+}
+.fallacy #content-inner.middle-ground .inter-fallacy{ 
+	background-image: url('../assets/icon-middle-ground.png');
+}
+
+.faq #content-inner{
+	padding-top: 60px;
+	text-align: left;
+}
+
+.faq #content-inner h2{
+	font-size: 34px;
+	font-family: 'M700', Georgia, "Times New Roman", Times, serif;
+	color: #231F20;
+	padding-bottom: 5px;
+}
+
+.faq #content-inner article{
+	padding: 20px 0 0;
+}
+
+.faq .question, .faq #content-inner span{
+	font-family: 'M700', Georgia, "Times New Roman", Times, serif;
+	color: #444;
+}
+
+.poster #content-inner{
+	padding-top: 60px;
+	text-align: left;
+}
+
+.poster #content-inner .pdfs{
+	height: 160px;
+}
+
+.poster #content-inner .pdfs li{
+	text-align: center;
+	font-family: 'M700', Georgia, "Times New Roman", Times, serif;
+	float: left;
+	color: #888;
+	font-size: 12px;
+	margin: 0 34px;
+}
+
+.poster #content-inner .pdfs a{
+	background: url('../assets/pdf.png') no-repeat center top;
+	width: 180px;
+	padding: 75px 0 3px;
+	color: #221f1f;
+	font-family: 'M900', Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+	display: block;
+}
+
+.poster #content-inner figure{
+	padding: 0 0 15px;
+	margin: 0;
+}
+
+.poster #content-inner h3{
+	width: 100%;
+	font-size: 22px;
+}
+
+.poster #content-inner article{
+	padding: 20px 0;
+	width: 100%;
+}
+
+@media (max-device-width: 480px){
+	section.bg .top{
+		height: 45px;
+	}
+
+	section.bg .bottom{
+		height: 4px;
+	}
+
+	.content.home{
+		background-position: center 48px;
+	}
+
+	.content{
+		background-position: center 0;
+	}
+
+	.content, .content.home{
+		width: 480px;
+	}
+
+	header{
+		position: relative;
+		background-size: 640px;
+		height: 96px;
+	}
+
+	.content.home header a.title{
+		background-position: center 4px;
+    	background-size: 440px auto;
+	}
+
+	.content header a.title{
+		background-size: 520px;
+	}
+
+	.home span.sep{
+		display: none;
+	}
+
+	#content-inner{
+		width: 420px !important;
+		background: none !important;
+	}
+
+	#content-inner nav.major li a{
+		width: 190px !important;
+		display: block !important;
+		text-align: left !important;
+		height: 44px;
+	}
+
+	#content-inner nav.major li a:after{
+		text-align: left;
+		display: table-cell;
+		vertical-align: middle;
+		padding-left: 6px;
+		content: attr(title);
+		height: 44px;
+		font-size: 20px;
+		color: #000;
+		width: 140px;
+	}
+
+	.home #content-inner h1, .home #content-inner h3, .home #content-inner article p{
+		display: none;
+	}
+
+	#content-inner article{
+		clear: both;
+		padding: 40px 20px 0;
+	}
+
+	#content-inner article p.note{
+		display: inherit;
+		font-size: 22px;
+		color: #000;
+		line-height: 24px;
+	}
+
+	.fallacy #content-inner h3{
+		width: 100%;
+	}
+
+	.fallacy #content-inner article{
+		padding: 20px 0 0;
+	}
+
+	.poster #content-inner, .faq #content-inner{
+		padding-top: 15px;
+	}
+
+	.poster #content-inner .pdfs{
+		height: inherit;	
+	}
+
+	.poster #content-inner .pdfs li{
+		float: none;
+		display: block;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.poster #content-inner .pdfs li a{
+		margin: 0 auto;
+	}
+
+	.poster figure img{
+		width: 420px;
+		height: auto;
+	}
+
+	.poster #content-inner h3{
+		font-size: 19px;
+	}
+
+	footer{
+		margin-top: 0;
+	}
+
+	footer nav ul{
+		height: inherit !important;
+		padding: 0 0 30px !important;
+	}
+
+	footer nav li{
+		margin: 0 auto;
+		float: none !important;
+		padding: 30px 0 !important;
+	}
+
+	footer nav li.poster{
+		border-width: 1px 0 !important;
+	}
+
+	footer nav li.donate{
+		padding-top: 10px !important;
+		border-width: 0 0 1px !important;
+	}
+
+	footer span{
+		width: 290px !important;
+		margin: 0 auto !important;
+	}
+
+	footer span img{
+		display: block !important;
+		width: 59px !important;
+		margin: 7px auto !important;
+	}
+
+	footer nav.major{
+		display: none;
+	}
+}

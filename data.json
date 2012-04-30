@@ -1,0 +1,214 @@
+{
+    "site": {
+        "description": "Logical fallacies are often sneakily used by politicians and the media to fool people. Don't be fooled! This website has been designed to help you identify and call out dodgy logic wherever it may raise its ugly, incoherent head."
+    },
+    "faq": {
+       "q1": {
+            "question": "Did you know that there's more logical fallacies than you have listed on this website?",
+            "answer": "Yes, yes we did. The point of the site is to make common logical fallacies easily understood, so listing every single one isn't really what it's about. If you want to learn more about logical fallacies check out <a href=\"http://www.fallacyfiles.org/taxonomy.html\" target=\"_blank\" title=\"Taxonomy of the Logical Fallacies\">this comprehensive interactive list</a> of all the formal and informal fallacies."
+        },
+        "q2": {
+            "question": "What's this whole thing about, anyway?",
+            "answer": "A while ago I was trying to explain logical fallacies to my two boys (you don't know who I am though, do you? I'm Jesse. Hello.). They're smart enough kids, but, you know, they're still kids - and so I tried to come up with really simple ways of explaining the concepts behind some of the more common fallacies.<br /><br />I found that distilling a fallacy into a single, simple sentence (without using any big pretentious words) was something of a challenge, but because I'm an ad guy I had some skillz with regard to making sure the lowest common denominator could understand the message (not that my kids are the lowest common denominator, but you get my point). So having simplified the explanations of some of the fallacies, I tried to come up with fun examples to go along with them. Then I thought 'hey, what if I were to make these into a poster infographic type thing that parents could hang on their kids' bedroom walls, and slightly nerdy students could hang in their apartments, and teachers could hang in their classrooms, and whatnot?' And that's how this project began.<br /><br />I've come to the conclusion that education is the single most vital, important thing that there is, and this website is my first attempt to bring my background in the dark arts of advertising to bear for a positive purpose - making educational materials that are simple, engaging and effective. If you like the cut of the jibs you see here, then please feel free to <a href=\"#donate\" title=\"donate\">donate money to me</a> which I may spend on future educational websites and things, or possibly on lunch/beer. It's a bit pot luck, really."
+        },
+        "q3": {
+            "question": "How can I print a poster at A2 or A1 size?",
+            "answer": "Simply google 'large format digital printing' along with your city's name. Call or email a couple of the businesses that do large format digital printing and explain that you have a print-ready under 1MB vector pdf file at A1/A2 size and you'd like a quote to have it printed. You may also want to ask them to include an option for lamination in your quote. Email them the file and you should be able to pick it up in the next day or so. If you're poor or stingy you can print it out on a laser printer at A3, but this version is simplified and doesn't include the funny examples and things."
+        },
+        "q4": {
+            "question": "So, like, can I print the posters and sell them for profit?",
+            "answer": "Yes, you can. The only binding condition is that you reproduce the poster in full. No reason you shouldn't make a buck for taking the initiative to get it out there, though."
+        },
+        "q5": {
+            "question": "What's a torrent and why does my internets have one? Is there virus and computer scary thing now?",
+            "answer": "If you don't know what torrents are, just download the pdf file of the <a href=\"poster\" title=\"poster\">poster</a> at the size you want to print it."
+        },
+        "q6": {
+            "question": "Can I use the stuff on here to teach my class about logical fallacies?",
+            "answer": "Absolutely. In fact <a href=\"https://s3.amazonaws.com/yourlogicalfallacyis/pdf/Logical_Fallacies_on_A4.pdf\" title=\"PDF\" target=\"_blank\">here is a pdf</a> with each of the fallacies on a separate page such that you can divide them up to suit your curriculum."
+        }
+    },
+    "poster": {
+        "head": "This infographic poster can be printed out at various sizes for hanging in your favourite place that has walls. Make yourself, your class, your friends or your kids smarter by hanging it somewhere your face is near.",
+        "description": "It's a vector pdf file, which means that it's high resolution whilst being small to download. If you want to print it out at A2 (594x420mm or 23.4 x 16.5 inches) or A1 (841x594mm or 33.1 x 23.4 inches) you'll need to get them printed at your local large format digital print shop.<br /><br />Best way to do this is to google 'large format digital printing' plus your city's name. Email or call a few of them and tell them you have a high resolution vector pdf file to print at A1/A2 (maybe get a quote for both sizes) and also ask them to quote for lamination.<br /><br />Otherwise you can print it out on a laser printer at A3 size, but note that this is a simplified version with just the basic description of each fallacy and no funny examples and junk (so that the text is readable at A3 size). If you feel compelled to donate a few bucks, cool. If not, also cool.<br /><br />Due to several people emailing me asking if they can buy a printed version online, I've put it <a href=\"http://www.zazzle.com/thou_shalt_not_commit_logical_fallacies_48x30_poster-228193796156126283\">up on zazzle.com</a> so that you can get it printed and delivered to your door, but it's pretty expensive so you might want to get a local quote first (or you can think of it as a donation for the artwork, but to be honest I'm just happy to just have this poster going out into the world).<br /><br /><strong>Note for designers and internetians:</strong> You can download a .zip package containing all three files as layered, editable, vector Adobe Illustrator pdf files by <a href=\"https://s3.amazonaws.com/yourlogicalfallacyis/pdf/FallaciesPostersPDF.zip\" title=\"download the torrent\" target=\"_blank\">clicking this here link</a>."
+    },
+    "home": {
+        "description": "A logical fallacy is usually what has happened when someone is wrong about something. It's a flaw in reasoning. They're like tricks or illusions of thought, and they're often very sneakily used by politicians and the media to fool people.<br /><br />Don't be fooled! This website and <a href=\"poster\">poster</a> have been designed to help you identify and call out dodgy logic wherever it may raise its ugly, incoherent head.<br /><br />If you see someone committing a logical fallacy, link them to the relevant fallacy to school them in thinky awesomeness and win the intellectual affections of those who happen across your comment by appearing clever and interesting e.g. <a href=\"strawman\">yourlogicalfallacyis.com/strawman</a> (rollover/click icons above).",
+        "note": "This website was set up as a free educational resource and general helping-people-to-think-better thing."
+    },
+    "missing": {
+        "title": "The Missing Fallacy",
+        "head": "(that is, the page you're looking for appears to be missing)",
+        "description": "Pure coincidence or a mysterious conspiracy? As these things go the address might have changed, though more likely it simply never was. You can <a href=\"home\" title=\"home\">click here</a> to go to the home page or move on to one of the links below."
+    },
+    "fallacies": {
+        "strawman": {
+            "title": "strawman",
+            "head": "You misrepresented someone's argument to make it easier to attack.",
+            "first": "Misrepresenting someone's argument to make it easier to attack.",
+            "description": "By exaggerating, misrepresenting, or just completely fabricating someone's argument, it's much easier to present your own position as being reasonable or valid. This kind of dishonesty not only undermines rational discourse, it also harms one's own position because it brings your credibility into question - if you're willing to misrepresent your opponent's argument in the negative, might you also be willing to exaggerate your own in the positive?",
+            "example": "After Will said that we should put more money into health and education, Warren responded by saying that he was surprised that Will hates our country so much that he wants to leave it defenceless by cutting military spending."
+        },
+        "false-cause": {
+            "title": "false cause",
+            "head": "You presumed that a real or perceived relationship between things means that one is the cause of the other.",
+            "first": "Presuming that a real or perceived relationship between things means that one is the cause of the other.",
+            "description": "One such mistake in thinking is the 'cum hoc ergo propter hoc' (with this, therefore because of this) fallacy in which someone presumes that because things are happening together that one thing is therefore the cause of the other. The mistake lies in ignoring the possibility that there may be a common cause to both things happening, or, as per the example below, that the two things in question have no causal relationship at all, and their apparent connection is just a coincidence. Another common variation is the 'post hoc ergo propter hoc' (after this, therefore because of this) fallacy in which a causal connection is assumed because one thing happens prior to another thing happening, therefore the second thing must be caused by the first thing.",
+            "example": "Pointing to a fancy chart, Roger shows how temperatures have been rising over the past few centuries, whilst at the same time the numbers of pirates have been decreasing; thus pirates cool the world and global warming is a hoax."
+        },
+        "appeal-to-emotion": {
+            "title": "appeal to emotion",
+            "head": "You attempted to manipulate an emotional response in place of a valid or compelling argument.",
+            "first": "Manipulating an emotional response in place of a valid or compelling argument.",
+            "description": "Appeals to emotion include appeals to fear, envy, hatred, pity, pride, and more. It's important to note that sometimes a logically coherent argument may inspire emotion or have an emotional aspect, but the problem and fallacy occurs when emotion is used instead of a logical argument, or to obscure the fact that no compelling rational reason exists for one's position. Everyone, bar sociopaths, is affected by emotion, and so appeals to emotion are a very common and effective argument tactic, but they're ultimately flawed, dishonest, and tend to make one's opponents justifiably emotional.",
+            "example": "Luke didn't want to eat his sheep's brains with chopped liver and brussel sprouts, but his father told him to think about the poor, starving children in a third world country who weren't fortunate enough to have any food at all."
+        },
+        "the-fallacy-fallacy": {
+            "title": "the fallacy fallacy",
+            "head": "Presuming that because a claim has been poorly argued, or a fallacy has been made, that it is necessarily wrong.",
+            "first": "Presuming that because a claim has been poorly argued, or a fallacy has been made, that it is necessarily wrong.",
+            "description": "There are few things more frustrating than watching someone poorly argue a position one holds. Much of the time a debate is won not because the victor is right, but because s/he is better at debating than their opponent. If we're to be honest and rational, we must be mindful that just because someone made a mistake in their defence of an argument, it doesn't necessarily follow that the argument itself is wrong.",
+            "example": "Recognising that Amanda had committed a fallacy in arguing that we should eat healthy food because it was popular, Alyse resolved to eat bacon double cheeseburgers every day."
+        },
+        "slippery-slope": {
+            "title": "slippery slope",
+            "head": "You made out like if we allow A to happen, then Z will eventually happen too, therefore A should not happen.",
+            "first": "Asserting that if we allow A to happen, then Z will consequently happen too, therefore A should not happen.",
+            "description": "The problem with this reasoning is that it avoids engaging with the issue at hand, and instead shifts attention to extreme hypotheticals. Because no proof is presented to show that such extreme hypotheticals will in fact occur, this fallacy has the form of an appeal to emotion fallacy by leveraging fear. In effect the argument at hand is unfairly tainted by unsubstantiated conjecture.",
+            "example": "Colin Closet asserts that if we allow same-sex couples to marry, then the next thing we know we'll be allowing people to marry their parents, their cars and Bonobo monkeys."
+        },
+        "ad-hominem": {
+            "title": "ad hominem",
+            "head": "You attacked your opponent's character or personal traits instead of engaging with their argument.",
+            "first": "Attacking your opponent's character or personal traits instead of engaging with their argument.",
+            "description": "Ad hominem attacks can take the form of overtly attacking somebody, or more subtly casting doubt on their character or personal attributes. The desired result of an ad hom attack is to undermine one's opponent without actually having to engage with their argument or present a compelling argument of one's own.",
+            "example": "After Sally presents an eloquent and compelling case for a more equitable taxation system, Sam asks the audience whether we should believe anything from a woman who isn't married, was once arrested, and smells a bit weird."
+        },
+        "tu-quoque": {
+            "title": "tu quoque",
+            "head": "You avoided having to engage with criticism by turning it back on the accuser - you answered criticism with criticism.",
+            "first": "Avoiding having to engage with criticism by turning it back on the accuser - answering criticism with criticism.",
+            "description": "Pronounced too-kwo-kee. Literally translating as 'you too' this fallacy is commonly employed as an effective red herring because it takes the heat off the accused having to defend themselves and shifts the focus back onto the accuser themselves. The implication is that if one's opponent also does the thing that they are accused of, then their opponent is a hypocrite. Irrespective of whether this might be true or not, the problem lies in the fact that it is effectively a tactic to avoid recognising and responding to the criticism of one's argument - by turning it back on the accuser, the accused doesn't need to answer the accusation.",
+            "example": "Nicole identified that Hannah had committed a logical fallacy, but instead of addressing the substance of her claim, Hannah accused Nicole of committing a fallacy earlier on in the conversation."
+        },
+        "personal-incredulity": {
+            "title": "personal incredulity",
+            "head": "Because you found something difficult to understand, or are unaware of how it works, you made out like it's probably not true.",
+            "first": "Saying that because one finds something difficult to understand that it's therefore not true.",
+            "description": "Complex subjects like biological evolution through natural selection require some amount of understanding of how they work before one is able to properly grasp them; this fallacy is usually used in place of that understanding.",
+            "example": "Kirk drew a picture of a fish and a human and with effusive disdain asked Richard if he really thought we were stupid enough to believe that a fish somehow turned into a human through just, like, random things happening over time."
+        },
+        "special-pleading": {
+            "title": "special pleading",
+            "head": "You moved the goalposts or made up an exception when your claim was shown to be false.",
+            "first": "Moving the goalposts or making up exceptions when a claim is shown to be false.",
+            "description": "Humans are funny creatures and have a foolish aversion to being wrong. Rather than appreciate the benefits of being able to change one's mind through better understanding, many will invent ways to cling to old beliefs. One of the most common ways that people do this is to post-rationalize a reason why what they thought to be true must remain to be true. It's usually very easy to find a reason to believe something that suits us, and it requires integrity and genuine honesty with oneself to examine one's own beliefs and motivations without falling into the trap of justifying our existing ways of seeing ourselves and the world around us.",
+            "example": "Edward Johns claimed to be psychic, but when his 'abilities' were tested under proper scientific conditions, they magically disappeared. Edward explained this saying that one had to have faith in his abilities for them to work."
+        },
+        "loaded-question": {
+            "title": "loaded question",
+            "head": "You asked a question that had an assumption built into it so that it couldn't be answered without appearing guilty.",
+            "first": "Asking a question that has an assumption built into it so that it can't be answered without appearing guilty.",
+            "description": "Loaded question fallacies are particularly effective at derailing rational debates because of their inflammatory nature - the recipient of the loaded question is compelled to defend themselves and may appear flustered or on the back foot. Not only is this fallacy a kind of appeal to emotion, it also insidiously frames the argument in a misleading way, like a pre-emptive strawman fallacy.",
+            "example": "Grace and Helen were both romantically interested in Brad. One day, with Brad sitting within earshot, Grace asked in an inquisitive tone whether Helen was having any problems with a drug habit. "
+        },
+        "burden-of-proof": {
+            "title": "burden of proof",
+            "head": "You said that the burden of proof lies not with the person making the claim, but with someone else to disprove.",
+            "first": "Saying that the burden of proof lies not with the person making the claim, but with someone else to disprove.",
+            "description": "The burden of proof lies with someone who is making a claim, and is not upon anyone else to disprove. The inability, or disinclination, to disprove a claim does not render that claim valid, nor give it any credence whatsoever. However it is important to note that we can never be certain of anything, and so we must assign value to any claim based on the available evidence, and to dismiss something on the basis that it hasn't been proven beyond all doubt is also fallacious reasoning.",
+            "example": "Bertrand declares that a teapot is, at this very moment, in orbit around the Sun between the Earth and Mars, and that because no one can prove him wrong, his claim is therefore a valid one."
+        },
+        "ambiguity": {
+            "title": "ambiguity",
+            "head": "You used a double meaning or ambiguity of language to mislead or misrepresent the truth.",
+            "first": "Using double meanings or ambiguities of language to mislead or misrepresent the truth.",
+            "description": "Politicians are often guilty of using ambiguity to mislead and will later point to how they were technically not outright lying if they come under scrutiny. The reason that it qualifies as a fallacy is that it is intrinsically misleading.",
+            "example": "When the judge asked the defendant why he hadn't paid his parking fines, he said that he shouldn't have to pay them because the sign said 'Fine for parking here' and so he naturally presumed that it would be fine to park there."
+        },
+        "the-gamblers-fallacy": {
+            "title": "the gambler's fallacy",
+            "head": "You said that 'runs' occur to statistically independent phenomena such as roulette wheel spins.",
+            "first": "Believing that 'runs' occur to statistically independent phenomena such as roulette wheel spins.",
+            "description": "This commonly believed fallacy can be fairly said to have created an entire city in the desert of Nevada USA. Though the overall odds of a 'big run' happening may be low, each spin of the wheel is itself entirely independent from the last. So whilst there may be a very small chance that heads will come up 20 times in a row if you flip a coin, the chances of heads coming up on each individual flip remain 50/50, and aren't influenced by what happened before.",
+            "example": "Red had come up six times in a row on the roulette wheel, so Greg knew that it was close to certain that black would be next up. Suffering an economic form of natural selection with this thinking, he soon lost all of his savings."
+        },
+        "bandwagon": {
+            "title": "bandwagon",
+            "head": "You appealed to popularity or the fact that many people do something as an attempted form of validation.",
+            "first": "Appealing to popularity or the fact that many people do something as an attempted form of validation.",
+            "description": "The flaw in this argument is that the popularity of an idea has absolutely no bearing on its validity.<br />If it did, then the Earth would have made itself flat for most of history to accommodate people's popular belief.",
+            "example": "Shamus pointed a drunken finger at Sean and asked him to explain how so many people could believe in leprechauns if they're only a silly old superstition. Sean, however, had had a few too many Guinness himself and fell off his chair."
+        },
+        "appeal-to-authority": {
+            "title": "appeal to authority",
+            "head": "You used the opinion or position of an authority figure, or institution of authority, in place of an actual argument.",
+            "first": "Using the opinion or position of an authority figure, or institution of authority, in place of an actual argument.",
+            "description": "It is important to note with this fallacy that authorities in given fields may very well have valid arguments, and that one should not dismiss another's experience and expertise. To form an argument, however, one must defend it on its merits i.e. know why the person in authority holds the particular position that they do. It is, of course, entirely possible that the opinion of a person or institution of authority is wrong; therefore the authority that such a person or institution holds does not have any intrinsic bearing upon whether their claims are true or not.",
+            "example": "Not able to defend his position that evolution 'isn't true' Bob says that he knows a scientist who also questions evolution (and presumably isn't a primate)."
+        },
+        "composition-division": {
+            "title": "composition/division",
+            "head": "You assumed that one part of something has to be applied to all, or other, parts of it.",
+            "first": "Assuming that what's true about one part of something has to be applied to all, or other, parts of it.",
+            "description": "Often when something is true for the part it does also apply to the whole, but the crucial difference is whether there exists good evidence to show that this is the case. Because we observe consistencies in things, our thinking can become biased so that we presume consistency to exist where it does not.",
+            "example": "Daniel was a precocious child and had a liking for logic. He reasoned that atoms are invisible, and that he was made of atoms and therefore invisible too. Unfortunately, despite his thinky skills, he lost the game of hide and go seek. "
+        },
+        "no-true-scotsman": {
+            "title": "no true scotsman",
+            "head": "You made what could be called an appeal to purity as a way to dismiss relevant criticisms or flaws of your argument.",
+            "first": "Making what could be called an appeal to purity as a way to dismiss relevant criticisms or flaws of an argument.",
+            "description": "In this form of faulty reasoning one's belief is rendered unfalsifiable because no matter how compelling the evidence is, one simply shifts the goalposts so that it wouldn't apply to a supposedly 'true' example. This kind of post-rationalization is a way of avoiding valid criticisms of one's argument.",
+            "example": "Angus declares that Scotsmen do not put sugar on their porridge, to which Lachlan points out that he is a Scotsman and puts sugar on his porridge. Furious, like a true Scot, Angus yells that no true Scotsman sugars his porridge."
+        },
+        "genetic": {
+            "title": "genetic",
+            "head": "You judged something as either good or bad on the basis of where it comes from, or from whom it came.",
+            "first": "Judging something good or bad on the basis of where it comes from, or from whom it comes.",
+            "description": "This fallacy avoids the argument by shifting focus onto something's or someone's origins. It's similar to an ad hominem fallacy in that it leverages existing negative perceptions to make someone's argument look bad, without actually presenting a case for why the argument itself lacks merit.",
+            "example": "Accused on the 6 o'clock news of corruption and taking bribes, the senator said that we should all be very wary of the things we hear in the media, because we all know how very unreliable the media can be."
+        },
+        "black-or-white": {
+            "title": "black-or-white",
+            "head": "You presented two alternative states as the only possibilities, when in fact more possibilities exist.",
+            "first": "Where two alternative states are presented as the only possibilities, when in fact more possibilities exist.",
+            "description": "Also known as the false dilemma, this insidious tactic has the appearance of forming a logical argument, but under closer scrutiny it becomes evident that there are more possibilities than the either/or choice that is presented. Binary, black-or-white thinking doesn't allow for the many different variables, conditions, and contexts in which there would exist more than just the two possibilities put forth. It frames the argument misleadingly and obscures rational, honest debate.",
+            "example": "Whilst rallying support for his plan to fundamentally undermine citizens' rights, the Supreme Leader told the people they were either on his side, or they were on the side of the enemy."
+        },
+        "begging-the-question": {
+            "title": "begging the question",
+            "head": "You presented a circular argument in which the conclusion was included in the premise.",
+            "first": "A circular argument in which the conclusion is included in the premise.",
+            "description": "This logically incoherent argument often arises in situations where people have an assumption that is very ingrained, and therefore taken in their minds as a given. Circular reasoning is bad mostly because it's not very good.",
+            "example": "The word of Zorbo the Great is flawless and perfect. We know this because it says so in The Great and Infallible Book of Zorbo's Best and Most Truest Things that are Definitely True and Should Not Ever Be Questioned."
+        },
+        "appeal-to-nature": {
+            "title": "appeal to nature",
+            "head": "You argued that because something is 'natural' it is therefore valid, justified, inevitable, or ideal.",
+            "first": "Making the argument that because something is 'natural' it is therefore valid, justified, inevitable, or ideal.",
+            "description": "Just because something is natural does not mean that it's good. For instance murder is very natural, but most of us agree that we don't think it's a very good thing to be doing, nor does its 'naturalness' constitute any kind of justification for it.",
+            "example": "The medicine man rolled into town on his bandwagon offering various natural remedies, such as very special plain water. He said that it was only natural that people should be wary of 'artificial' medicines such as antibiotics."
+        },
+        "anecdotal": {
+            "title": "anecdotal",
+            "head": "You used a personal experience or an isolated example instead of a sound argument or compelling evidence.",
+            "first": "Using personal experience or an isolated example instead of a valid argument, especially to dismiss statistics.",
+            "description": "It's often much easier for people to believe someone's testimony as opposed to understanding complex data and variation across a continuum. Quantitative scientific measures are almost always more accurate than personal perceptions and experiences, but our inclination is to believe that which is tangible to us, and/or the word of someone we trust over a more 'abstract' statistical reality.",
+            "example": "Jason said that that was all cool and everything, but his grandfather smoked, like, 30 cigarettes a day and lived until 97 - so don't believe everything you read about meta analyses of methodologically sound studies showing proven causal relationships."
+        },
+        "the-texas-sharpshooter": {
+            "title": "the texas sharpshooter",
+            "head": "You cherry-picked a data cluster to suit your argument, or found a pattern to fit a presumption.",
+            "first": "Cherry-picking data clusters to suit an argument, or finding a pattern to fit a presumption.",
+            "description": "This 'false cause' fallacy is coined after a marksman shooting randomly at barns and then painting bullseye targets around the spot where the most bullet holes appear, making it appear as if he's a really good shot. Clusters naturally appear by chance, but don't necessarily indicate that there is a causal relationship.",
+            "example": "The makers of Sugarette Candy Drinks point to research showing that of the five countries where Sugarette drinks sell the most units, three of them are in the top ten healthiest countries on Earth, therefore Sugarette drinks are healthy."
+        },
+        "middle-ground": {
+            "title": "middle ground",
+            "head": "You claimed that a compromise, or middle point, between two extremes must be the truth.",
+            "first": "Saying that a compromise, or middle point, between two extremes is the truth.",
+            "description": "Much of the time the truth does indeed lie between two extreme points, but this can bias our thinking: sometimes a thing is simply untrue and a compromise of it is also untrue. Half way between truth and a lie, is still a lie.",
+            "example": "Holly said that vaccinations caused autism in children, but her scientifically well-read friend Caleb said that this claim had been debunked and proven false. Their friend Alice offered a compromise that maybe vaccinations cause some autism, just not all autism."
+        }
+    }
+}
