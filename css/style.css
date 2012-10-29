@@ -255,10 +255,10 @@ nav .right{
 	background-position: -616px bottom;
 }
 
-.home #content-inner nav li a[title="composition/ division"] span{ 
+.home #content-inner nav li a[title="composition/division"] span{ 
 	background-position: -660px 0;
 }
-.home #content-inner nav li a[title="composition/ division"]:hover span{ 
+.home #content-inner nav li a[title="composition/division"]:hover span{ 
 	background-position: -660px bottom;
 }
 
@@ -502,7 +502,7 @@ footer nav.major li a[title="bandwagon"] span{
 footer nav.major li a[title="appeal to authority"] span{ 
 	background-position: -462px 0;
 }
-footer nav.major li a[title="composition/ division"] span{ 
+footer nav.major li a[title="composition/division"] span{ 
 	background-position: -495px 0;
 }
 footer nav.major li a[title="no true scotsman"] span{ 

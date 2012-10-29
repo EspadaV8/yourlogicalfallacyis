@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'M900';
+    src: url('m900.eot');
+    src: url('m900.eot?#iefix') format('embedded-opentype'),
+         url('https://s3.amazonaws.com/yourlogicalfallacyis/fonts/m900.woff') format('woff'),
+         url('m900.woff') format('woff'),
+         url('https://s3.amazonaws.com/yourlogicalfallacyis/fonts/m900.ttf') format('truetype'),
+         url('m900.ttf') format('truetype'),
+         url('m900.svg#M900') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'M300';
+    src: url('m300.eot');
+    src: url('m300.eot?#iefix') format('embedded-opentype'),
+         url('https://s3.amazonaws.com/yourlogicalfallacyis/fonts/m300.woff') format('woff'),
+         url('m300.woff') format('woff'),
+         url('https://s3.amazonaws.com/yourlogicalfallacyis/fonts/m300.ttf') format('truetype'),
+         url('m300.ttf') format('truetype'),
+         url('m300.svg#M300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'M700';
+    src: url('m700.eot');
+    src: url('m700.eot?#iefix') format('embedded-opentype'),
+         url('https://s3.amazonaws.com/yourlogicalfallacyis/fonts/m700.woff') format('woff'),
+         url('m700.woff') format('woff'),
+         url('https://s3.amazonaws.com/yourlogicalfallacyis/fonts/m700.ttf') format('truetype'),
+         url('m700.ttf') format('truetype'),
+         url('m700.svg#M700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

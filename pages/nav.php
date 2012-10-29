@@ -17,7 +17,7 @@
     <li><a href="the-gamblers-fallacy" title="the gambler's fallacy"><span></span></a></li>
     <li><a href="bandwagon" title="bandwagon"><span></span></a></li>
     <li><a href="appeal-to-authority" title="appeal to authority"><span></span></a></li>
-    <li><a href="composition-division" title="composition/ division"><span></span></a></li>
+    <li><a href="composition-division" title="composition/division"><span></span></a></li>
     <li><a href="no-true-scotsman" title="no true scotsman"><span></span></a></li>
     <li><a href="genetic" title="genetic"><span></span></a></li>
     <li><a href="black-or-white" title="black-or-white"><span></span></a></li>

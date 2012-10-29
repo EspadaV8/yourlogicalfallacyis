@@ -2,9 +2,9 @@
   <footer>
     <nav class="minor">
       <ul>
-        <li class="contact"><a href="faq"><h2>contact us</h2></a>Please read the <a href="faq">FAQs</a> before sending us an <a href="mailto:softduality@gmail.com">email</a>.</li>
+        <li class="contact"><a href="faq"><h2>contact us</h2></a>Please read the <a href="faq">FAQs</a> before sending us an <a href="mailto:jesse@yourlogicalfallacyis.com">email</a>.</li>
         <li class="poster"><a href="poster"><h2>want a free poster?</h2></a>Preview and download hi-res pdfs at A3/A2/A1 sizes.</li>
-        <li class="donate"><a href="#donate"><h2>donate</h2></a>Give us money for beer and/or future education projects.
+        <li class="donate"><a href="#donate"><h2>donate</h2></a>Help us pay for bandwidth and future education projects.
           <form id="paypal" target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="M8Z3NTYLAZWBY">

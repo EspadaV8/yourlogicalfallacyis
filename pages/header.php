@@ -11,22 +11,30 @@
 <meta property="og:url" content="<?php echo $base_uri . '/' . ($type ? $type : ($page=='home' ? '' : $page)); ?>"/>
 <meta property="og:site_name" content="Thou shalt not commit logical fallacies"/>
 <meta property="og:image" content="<?php echo $base_uri . '/assets/share/icon-' . ($page=='fallacy' ? $type : 'share'); ?>.jpg"/>
-<base href="<?php echo $base_uri; ?>">
+<!--base href="<?php echo $base_uri; ?>"-->
 <link href="https://s3.amazonaws.com/yourlogicalfallacyis/css/html5.css" rel="stylesheet" type="text/css"/>
 <link href="https://s3.amazonaws.com/yourlogicalfallacyis/css/style.css" rel="stylesheet" type="text/css"/>
 <link href="fonts/style.css" rel="stylesheet" type="text/css"/>
 <link rel="image_src" type="image/jpeg" href="<?php echo $base_uri . '/assets/share/icon-' . ($page=='fallacy' ? $type : 'share'); ?>.jpg" />
 <link rel="icon" type="image/png" href="<?php echo $base_uri . '/assets/favicon.png'; ?>" />
+<?php if($page=='store'): ?>
+<link href="css/store.css" rel="stylesheet" type="text/css"/>
+<link href="css/select2/select2.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.min.js"></script>
+<script src="js/store.js"></script>
+<script src="js/select2.min.js"></script>
+<?php else: ?>
+<script src="js/combined.js"></script>
+<?php endif; ?>
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <!--
 <script src="js/jquery.ba-hashchange.min.js"></script>
 <script src="js/control.js"></script>
 <script src="js/location.js"></script>
 -->
-<script src="js/combined.js"></script>
 <!-- note: analytics and page data are included in the footer -->
 
 </head>

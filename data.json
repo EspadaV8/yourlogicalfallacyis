@@ -5,7 +5,7 @@
     "faq": {
        "q1": {
             "question": "Did you know that there's more logical fallacies than you have listed on this website?",
-            "answer": "Yes, yes we did. The point of the site is to make common logical fallacies easily understood, so listing every single one isn't really what it's about. If you want to learn more about logical fallacies check out <a href=\"http://www.fallacyfiles.org/taxonomy.html\" target=\"_blank\" title=\"Taxonomy of the Logical Fallacies\">this comprehensive interactive list</a> of all the formal and informal fallacies."
+            "answer": "Yes, yes we did. The point of the site is to make common logical fallacies easily understood, so listing every single one isn't really what it's about. If you want to learn more about logical fallacies check out <a href=\"http://www.fallacyfiles.org/taxonomy.html\" target=\"_blank\" title=\"Taxonomy of the Logical Fallacies\">this comprehensive interactive list</a> of all the formal and informal fallacies. And also check out <a href=\"http://youarenotsosmart.com\">youarenotsosmart.com</a> - we highly recommend the book version of this blog site for anyone wanting to understand their own mind and, for that matter, other people's minds."
         },
         "q2": {
             "question": "What's this whole thing about, anyway?",
@@ -25,12 +25,12 @@
         },
         "q6": {
             "question": "Can I use the stuff on here to teach my class about logical fallacies?",
-            "answer": "Absolutely. In fact <a href=\"https://s3.amazonaws.com/yourlogicalfallacyis/pdf/Logical_Fallacies_on_A4.pdf\" title=\"PDF\" target=\"_blank\">here is a pdf</a> with each of the fallacies on a separate page such that you can divide them up to suit your curriculum."
+            "answer": "Absolutely. In fact <a href=\"https://s3.amazonaws.com/yourlogicalfallacyis/pdf/Logical_Fallacies_on_A4.pdf\" title=\"PDF\" target=\"_blank\">here is a pdf</a> with each of the fallacies on a separate page such that you can divide them up to suit your curriculum. If you want something specific for your class, please <a href=\"mailto:jesse@yourlogicalfallacyis.com\">email me</a> and I'll try to help however I can."
         }
     },
     "poster": {
         "head": "This infographic poster can be printed out at various sizes for hanging in your favourite place that has walls. Make yourself, your class, your friends or your kids smarter by hanging it somewhere your face is near.",
-        "description": "It's a vector pdf file, which means that it's high resolution whilst being small to download. If you want to print it out at A2 (594x420mm or 23.4 x 16.5 inches) or A1 (841x594mm or 33.1 x 23.4 inches) you'll need to get them printed at your local large format digital print shop.<br /><br />Best way to do this is to google 'large format digital printing' plus your city's name. Email or call a few of them and tell them you have a high resolution vector pdf file to print at A1/A2 (maybe get a quote for both sizes) and also ask them to quote for lamination.<br /><br />Otherwise you can print it out on a laser printer at A3 size, but note that this is a simplified version with just the basic description of each fallacy and no funny examples and junk (so that the text is readable at A3 size). If you feel compelled to donate a few bucks, cool. If not, also cool.<br /><br />Due to several people emailing me asking if they can buy a printed version online, I've put it <a href=\"http://www.zazzle.com/thou_shalt_not_commit_logical_fallacies_48x30_poster-228193796156126283\">up on zazzle.com</a> so that you can get it printed and delivered to your door, but it's pretty expensive so you might want to get a local quote first (or you can think of it as a donation for the artwork, but to be honest I'm just happy to just have this poster going out into the world).<br /><br /><strong>Note for designers and internetians:</strong> You can download a .zip package containing all three files as layered, editable, vector Adobe Illustrator pdf files by <a href=\"https://s3.amazonaws.com/yourlogicalfallacyis/pdf/FallaciesPostersPDF.zip\" title=\"download the torrent\" target=\"_blank\">clicking this here link</a>."
+        "description": "It's a vector pdf file, which means that it's high resolution whilst being small to download. If you want to print it out at A2 (594x420mm or 23.4 x 16.5 inches) or A1 (841x594mm or 33.1 x 23.4 inches) you'll need to get them printed at your local large format digital print shop.<br /><br />Best way to do this is to google 'large format digital printing' plus your city's name. Email or call a few of them and tell them you have a high resolution vector pdf file to print at A1/A2 (maybe get a quote for both sizes) and also ask them to quote for lamination.<br /><br />Otherwise you can print it out on a laser printer at A3 size, but note that this is a simplified version with just the basic description of each fallacy and no funny examples and junk (so that the text is readable at A3 size). If you feel compelled to donate a few bucks, cool. If not, also cool.<br /><br />Due to several people emailing me asking if they can buy a printed version online, I've put it <a href=\"http://www.zazzle.com/thou_shalt_not_commit_logical_fallacies_48x30_poster-228193796156126283\">up on zazzle.com</a> so that you can get it printed and delivered to your door, but it's pretty expensive so you might want to get a local quote first.<br /><br /><strong>Note for designers and internetians:</strong> You can download a .zip package containing all three files as layered, editable, vector Adobe Illustrator pdf files by <a href=\"https://s3.amazonaws.com/yourlogicalfallacyis/pdf/FallaciesPostersPDF.zip\" title=\"download the torrent\" target=\"_blank\">clicking this here link</a>."
     },
     "home": {
         "description": "A logical fallacy is usually what has happened when someone is wrong about something. It's a flaw in reasoning. They're like tricks or illusions of thought, and they're often very sneakily used by politicians and the media to fool people.<br /><br />Don't be fooled! This website and <a href=\"poster\">poster</a> have been designed to help you identify and call out dodgy logic wherever it may raise its ugly, incoherent head.<br /><br />If you see someone committing a logical fallacy, link them to the relevant fallacy to school them in thinky awesomeness and win the intellectual affections of those who happen across your comment by appearing clever and interesting e.g. <a href=\"strawman\">yourlogicalfallacyis.com/strawman</a> (rollover/click icons above).",
@@ -75,7 +75,7 @@
             "head": "You made out like if we allow A to happen, then Z will eventually happen too, therefore A should not happen.",
             "first": "Asserting that if we allow A to happen, then Z will consequently happen too, therefore A should not happen.",
             "description": "The problem with this reasoning is that it avoids engaging with the issue at hand, and instead shifts attention to extreme hypotheticals. Because no proof is presented to show that such extreme hypotheticals will in fact occur, this fallacy has the form of an appeal to emotion fallacy by leveraging fear. In effect the argument at hand is unfairly tainted by unsubstantiated conjecture.",
-            "example": "Colin Closet asserts that if we allow same-sex couples to marry, then the next thing we know we'll be allowing people to marry their parents, their cars and Bonobo monkeys."
+            "example": "Colin Closet asserts that if we allow same-sex couples to marry, then the next thing we know we'll be allowing people to marry their parents, their cars and even monkeys."
         },
         "ad-hominem": {
             "title": "ad hominem",
@@ -107,8 +107,8 @@
         },
         "loaded-question": {
             "title": "loaded question",
-            "head": "You asked a question that had an assumption built into it so that it couldn't be answered without appearing guilty.",
-            "first": "Asking a question that has an assumption built into it so that it can't be answered without appearing guilty.",
+            "head": "You asked a question that had a presumption built into it so that it couldn't be answered without appearing guilty.",
+            "first": "Asking a question that has a presumption built into it so that it can't be answered without appearing guilty.",
             "description": "Loaded question fallacies are particularly effective at derailing rational debates because of their inflammatory nature - the recipient of the loaded question is compelled to defend themselves and may appear flustered or on the back foot. Not only is this fallacy a kind of appeal to emotion, it also insidiously frames the argument in a misleading way, like a pre-emptive strawman fallacy.",
             "example": "Grace and Helen were both romantically interested in Brad. One day, with Brad sitting within earshot, Grace asked in an inquisitive tone whether Helen was having any problems with a drug habit. "
         },
@@ -149,9 +149,9 @@
         },
         "composition-division": {
             "title": "composition/division",
-            "head": "You assumed that one part of something has to be applied to all, or other, parts of it.",
+            "head": "You assumed that one part of something has to be applied to all, or other, parts of it; or that the whole must apply to its parts.",
             "first": "Assuming that what's true about one part of something has to be applied to all, or other, parts of it.",
-            "description": "Often when something is true for the part it does also apply to the whole, but the crucial difference is whether there exists good evidence to show that this is the case. Because we observe consistencies in things, our thinking can become biased so that we presume consistency to exist where it does not.",
+            "description": "Often when something is true for the part it does also apply to the whole, or vice versa, but the crucial difference is whether there exists good evidence to show that this is the case. Because we observe consistencies in things, our thinking can become biased so that we presume consistency to exist where it does not.",
             "example": "Daniel was a precocious child and had a liking for logic. He reasoned that atoms are invisible, and that he was made of atoms and therefore invisible too. Unfortunately, despite his thinky skills, he lost the game of hide and go seek. "
         },
         "no-true-scotsman": {
@@ -184,8 +184,8 @@
         },
         "appeal-to-nature": {
             "title": "appeal to nature",
-            "head": "You argued that because something is 'natural' it is therefore valid, justified, inevitable, or ideal.",
-            "first": "Making the argument that because something is 'natural' it is therefore valid, justified, inevitable, or ideal.",
+            "head": "You argued that because something is 'natural' it is therefore valid, justified, inevitable, or better.",
+            "first": "Making the argument that because something is 'natural' it is therefore valid, justified, inevitable, or better.",
             "description": "Just because something is natural does not mean that it's good. For instance murder is very natural, but most of us agree that we don't think it's a very good thing to be doing, nor does its 'naturalness' constitute any kind of justification for it.",
             "example": "The medicine man rolled into town on his bandwagon offering various natural remedies, such as very special plain water. He said that it was only natural that people should be wary of 'artificial' medicines such as antibiotics."
         },
