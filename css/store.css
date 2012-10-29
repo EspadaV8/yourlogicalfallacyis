@@ -1,0 +1,432 @@
+.select2-results{
+    text-align: left;
+}
+.select2-results li.select2-result-with-children > .select2-result-label{
+    color: #CCC;
+}
+.select2-results ul.select2-result-sub > li .select2-result-label{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.store #content-inner .header h1{
+    color: #393939;
+    font-family: 'M900';
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    margin: 15px -45px 0;
+    width: 800px;
+}
+
+.store .header p{
+    line-height: 18px;
+    padding: 15px;
+}
+
+.store .header p a{
+    font-family: 'M900';
+    color: #393939;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.store .header p a:hover{
+    text-decoration: none;
+} 
+
+.store .step{
+    padding: 0;
+}
+
+.store label{
+    cursor: default;
+    font-family: 'M700';
+    color: #414041;
+}
+
+.store .size-holder{
+    float: right;
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.store .poster-examples {
+    margin: 36px 0 0 10px;
+}
+
+.store .poster-examples li{
+    display: inline-block;
+    width: 340px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.store .poster-examples img{
+    cursor: pointer;
+}
+
+.store #content-inner .poster-examples .preview{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    padding: 10px 10px 6px;
+    background: #DDD;
+    border: 1px solid #C3C3C3;
+}
+
+.store #content-inner .poster-examples .preview img{
+    border: 1px solid #FFF;
+    cursor: none;
+}
+
+.store #content-inner .poster-examples h1{
+    font-size: 24px;
+    color: #414041;
+    padding: 3px;
+    margin-top: 1px;
+}
+
+.store .continue{
+    display: block;
+    background: url('../assets/cartsprite.png') no-repeat 0 -185px;
+    clear: both;
+    display: block;
+    height: 35px;
+    left: -50px;
+    margin: 0 auto;
+    position: relative;
+    width: 136px;
+}
+
+.store .size .continue{
+    left: -15px;
+}
+
+.store .continue:hover{
+    background-position: 0 -150px;
+}
+
+.store .continue:active{
+    background-position: 0 -219px;
+}
+
+#store-accordion{
+    text-align: left;
+    color: #777;
+}
+
+#store-accordion h2{
+    position: relative;
+    font-size: 24px;
+    height: 46px;
+    margin: 0;
+    padding: 0 30px 0 62px;
+    text-align: left;
+    color: #666;
+    background: url('../assets/store-header-repeat.png') repeat-x 0 -1px;
+    cursor: pointer;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+}
+
+#store-accordion h2.ui-state-active{
+    background-position: 0 -50px;
+    border-left: 1px solid #BBB;
+    border-right: 1px solid #BBB;
+}
+
+#store-accordion h2 .step-no{
+    background: url("../assets/cartsprite.png") no-repeat 9px -266px;
+    border-right: 1px solid #F2F2F2;
+    display: block;
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 61px;
+}
+
+#store-accordion h2 .step-title{
+    border-left: 1px solid #DDD;
+    height: 46px;
+    padding: 9px 0 9px 20px;
+    position: relative;
+    top: 11px;
+    color: #999;
+}
+
+#store-accordion h2:hover .step-title{
+    color: #888;
+}
+
+#store-accordion h2.ui-state-active .step-title{
+    color: #666;
+    border-left: 1px solid #BBB;
+}
+
+#store-accordion h2 .step-no.two{
+    background-position: -55px -265px;
+}
+
+#store-accordion h2 .step-no.three{
+    background-position: -120px -265px;
+}
+
+#store-accordion h2 .step-no.four{
+    background-position: -184px -265px;
+}
+
+#store-accordion h2 .step-info{
+    color: #999;
+    font-size: 14.5px;
+    margin: 10px;
+    position: relative;
+    top: 11px;
+}
+
+#store-accordion h2.ui-state-active .step-info{
+    color: #666;
+}
+
+#store-accordion h2 .step-right{
+    color: #AAA;
+    float: right;
+    font-size: 0.8em;
+    margin-top: 14px;
+}
+
+#store-accordion h2:hover .step-right{
+    color: #999;
+}
+
+#store-accordion h2.ui-state-active .step-right{
+    color: #CCC !important;
+}
+
+#store-accordion h3{
+    width: 100%;
+    color: #414041;
+    font-family: 'M900';
+    padding: 20px 0 5px;
+}
+
+#store-accordion strong{
+    color: #414041;
+    font-family: 'M900';
+    font-weight: 400;   
+}
+
+#store-accordion .quantity li.medium{
+    position: relative;
+    top: -1px;
+}
+
+#store-accordion .quantity select{
+    width: 60px;
+}
+
+#store-accordion .info{
+    font-family: 'M700';
+    font-size: 18px;
+    color: #414041;
+    border: 1px solid #CCC;
+    padding: 1px 15px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+#store-accordion .quantity label.info{
+    width: 476px;
+}
+
+#store-accordion .cost{
+    margin-left: 5px;
+    padding-right: 25px;
+    text-align: right;
+    width: 65px;
+}
+
+#store-accordion .total{
+    text-align: right;
+    font-family: 'M900';
+    font-size: 18px;
+    color: #414041;
+    padding: 10px 25px;
+}
+
+#store-accordion .total .cost{
+    display: inline-block;
+    padding: 0 0 0 20px;
+}
+
+#store-accordion .total sub{
+    font-size: 0.6em;
+    position: relative;
+    top: -8px;
+}
+
+#store-accordion .step.email{
+    padding: 28px 0 0 70px;
+}
+
+#store-accordion .step.email label{
+    float: left;
+    position: relative;
+    display: block;
+    font-size: 17px;
+    padding-right: 30px;
+}
+
+#store-accordion .step input{
+    display: block;
+    height: 34px;
+    line-height: 1em;
+    padding: 1px 5px;
+    width: 260px;
+}
+
+#store-accordion .step.email .match{
+    display: block;
+    float: left;
+    height: 31px;
+    width: 32px;
+    background: url('../assets/cartsprite.png') no-repeat -227px -152px;
+    margin-top: 28px;
+}
+
+#store-accordion .step.email.matched .match{
+    background-position: -227px -185px;
+}
+
+#store-accordion .step.email sub{
+    clear: both;
+    display: block;
+    font-size: 0.87em;
+    height: 1em;
+    padding: 17px 90px 17px 0;
+    text-align: center;
+}
+
+#store-accordion .step.shipping{
+    padding: 20px 0 0 70px;
+}
+
+#country, #us-state{
+    width: 250px;
+}
+
+#store-accordion .step.shipping .firstname input, #store-accordion .step.shipping .surname input{
+    width: 311px;
+}
+
+#store-accordion .step.shipping .firstname{
+    padding-right: 26px;
+}
+
+#store-accordion .step.shipping .firstname, 
+#store-accordion .step.shipping .surname, 
+#store-accordion .step.shipping .state,
+#store-accordion .step.shipping .zip{
+    display: inline-block;
+}
+
+#store-accordion .step.shipping .address{
+    display: block;
+    margin: 10px 0;
+}
+
+#store-accordion .step.shipping .address input{
+    width: 664px;
+    margin-bottom: 6px;
+}
+
+#store-accordion .step.shipping .state{
+    padding-right: 26px;
+    height: 62px;
+    float: left;
+}
+
+#store-accordion .step.shipping .state input{
+    width: 452px
+}
+
+#s2id_us-state{
+    margin-top: 5px;
+}
+
+#s2id_us-state, #store-accordion .step.shipping.us .state input{
+    display: none;
+}
+
+.step.shipping.us #s2id_us-state, #store-accordion .step.shipping .state input{
+    display: block;
+}
+
+#store-accordion .step.shipping .zip{
+    float: left;
+}
+
+#store-accordion .step.shipping .zip input{
+    width: 170px;
+}
+
+#store-accordion .step.shipping .total{
+    clear: both;
+    margin-bottom: 16px;
+}
+
+#store-accordion .step.payment aside{
+    padding-left: 85px;
+    float: left;
+    height: 215px;
+}
+
+#store-accordion .step.payment aside h3{
+    font-size: 18px;
+    padding-bottom: 33px;
+}
+
+#store-accordion .step.payment aside .paypal{
+    display: block;
+    width: 230px;
+    height: 135px;
+    background: url('../assets/cartsprite.png') no-repeat 0 -322px;
+}
+
+
+#store-accordion .step.payment .right{
+    text-align: right;
+    width: 345px;
+}
+
+#store-accordion .step.payment label{
+    display: block;
+    padding-top: 107px;
+}
+
+#checkout{
+    margin-top: 20px;
+    display: inline-block;
+    width: 258px;
+    height: 50px;
+    background: url('../assets/cartsprite.png') no-repeat 0 -50px;
+}
+
+#checkout:hover{
+    background-position: 0 0;
+}
+
+#checkout:active{
+    background-position: 0 -100px;
+}
+
+.sep{
+    clear: both;
+    display: block;
+    height: 40px;
+    border-bottom: 1px solid #C3C3C3;
+    margin-bottom: -20px;
+}
