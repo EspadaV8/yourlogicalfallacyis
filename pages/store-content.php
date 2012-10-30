@@ -21,7 +21,7 @@
 			<li class="large">
 				<figure>
 					<aside class="preview">
-						<img src="assets/ScalePreview24x36.png" alt="18” x 24” Poster" />
+						<img src="assets/ScalePreview24x36.png" width="800" height="593" alt="18” x 24” Poster" />
 					</aside>
 					<img src="assets/poster24x36.jpg" width="265" height="179" alt='24" x 36" Poster' />
 				</figure>
