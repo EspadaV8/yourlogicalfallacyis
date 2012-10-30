@@ -34,7 +34,7 @@
 			<strong>Qty.</strong> (extra posters are $10 each, limit of 10 per order)
 			<ul class="quantity">
 				<li class="large">
-					<select name="large">
+					<select data-type="poster_lrg" name="large">
 						<option>0</option>
 						<option>1</option>
 						<option>2</option>
@@ -50,7 +50,7 @@
 					<span class="info cost">$0.00</span>
 				</li>
 				<li class="medium">
-					<select name="medium">
+					<select data-type="poster_sml" name="medium">
 						<option>0</option>
 						<option>1</option>
 						<option>2</option>
