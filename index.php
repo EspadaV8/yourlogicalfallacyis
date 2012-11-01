@@ -1,6 +1,7 @@
 <?php
 	//$base_uri = "http://" . $_SERVER['HTTP_HOST'] . '/yourlogicalfallacyis.com/';
 	$base_uri = "http://" . $_SERVER['HTTP_HOST'];
+	$i_f = '';
 	//$base_uri = "http://" . $_SERVER['HTTP_HOST'];
 
 	if(!isset($_GET['page'])){

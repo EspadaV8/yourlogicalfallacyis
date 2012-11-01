@@ -341,7 +341,7 @@ h2{
 	padding: 5px 0;
 }
 
-h3{
+h3, h4{
 	font-family: 'M700', Georgia, "Times New Roman", Times, serif;
 	font-size: 17px;
 	color: #2B2524;
@@ -743,46 +743,135 @@ footer section span{
 }
 
 .poster #content-inner{
-	padding-top: 60px;
+	padding-top: 30px;
 	text-align: left;
 }
 
 .poster #content-inner .pdfs{
-	height: 160px;
+	//height: 160px;
 }
 
 .poster #content-inner .pdfs li{
-	text-align: center;
 	font-family: 'M700', Georgia, "Times New Roman", Times, serif;
+	background: url('../assets/pdf.png') no-repeat 0 0;
 	float: left;
 	color: #888;
 	font-size: 12px;
-	margin: 0 34px;
+	margin: 0 8px 0 27px;
+  padding: 6px 0 25px 55px;;
 }
 
 .poster #content-inner .pdfs a{
-	background: url('../assets/pdf.png') no-repeat center top;
-	width: 180px;
-	padding: 75px 0 3px;
+	width: 150px;
 	color: #221f1f;
 	font-family: 'M900', Georgia, "Times New Roman", Times, serif;
 	font-size: 22px;
 	display: block;
+	padding-bottom: 3px;
 }
 
 .poster #content-inner figure{
-	padding: 0 0 15px;
+	padding: 0;
 	margin: 0;
 }
 
+.poster #content-inner .buy-now{
+	display: block;
+	width: 192px;
+	height: 42px;
+	margin: 0 auto;
+	position: relative;
+	background: url('../assets/buy.png') no-repeat 0 -90px;
+	top: -21px;
+}
+
+.poster #content-inner figure a:hover .buy-now{
+	background-position: 0 -132px;
+}
+
+.poster #content-inner .buy-accepted{
+	display: block;
+	width: 311px;
+	height: 42px;
+	margin: 0 auto;
+	position: relative;
+	background: url('../assets/buy.png') no-repeat 0 -175px;
+	top: -15px;
+}
+
 .poster #content-inner h3{
+	clear: both;
 	width: 100%;
-	font-size: 22px;
+	font-size: 26px;
+	line-height: 32px;
+	text-align: center;
+	padding-bottom: 25px; 
+}
+
+.poster #content-inner h4 {
+  font-family: 'M900';
+  font-size: 18px;
+  width: 100%;
+  margin: 25px 0 5px;
+}
+
+.poster #content-inner ol{
+	counter-reset:li;
+}
+
+.poster #content-inner ol > li{
+	position:relative;
+  margin-left: 1.4em;
+  padding: 4px 0;
+  list-style: none;
+}
+
+.poster #content-inner ol > li:before {
+  content: counter(li)":"; 
+  counter-increment: li;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  font-family: "M900";
+  font-weight: bold;
+  left: -1.4em;
 }
 
 .poster #content-inner article{
-	padding: 20px 0;
+	padding: 10px 0;
 	width: 100%;
+}
+
+.poster #content-inner a.share{
+	left: 4px;
+  position: relative;
+  top: 2px;
+}
+
+.poster #preview{
+	position: absolute;
+  z-index: 1;
+  display: none;
+  padding: 10px 10px 6px;
+  background: #DDD;
+  border: 1px solid #C3C3C3;
+  width: 100%;
+  height: auto;
+}
+
+.poster #preview.sml, .poster #preview.lrg{
+	position: absolute;
+	display: block;
+}
+
+.poster #preview img{
+    border: 1px solid #FFF;
+    cursor: none;
+}
+
+.poster #preview.sml .lrg, .poster #preview.lrg .sml{
+	display: none;
 }
 
 @media (max-device-width: 480px){
