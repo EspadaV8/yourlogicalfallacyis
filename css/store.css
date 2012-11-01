@@ -11,7 +11,7 @@
 }
 
 .store #content-inner .header h1{
-    color: #393939;
+    color: #414042;
     font-family: 'M900';
     font-size: 32px;
     letter-spacing: 0.5px;
@@ -26,7 +26,7 @@
 
 .store .header p a{
     font-family: 'M900';
-    color: #393939;
+    color: #414042;
     font-size: 18px;
     text-decoration: underline;
 }
@@ -507,5 +507,6 @@
     font-size: 13px;
     height: 34px;
     line-height: 1em;
-    margin: 20px 0 -20px;
+    margin-bottom: -20px;
+    padding-top: 20px;
 }

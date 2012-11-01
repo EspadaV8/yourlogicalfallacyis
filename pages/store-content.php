@@ -18,7 +18,7 @@
 					<img src="assets/poster16x24.jpg" width="195" height="131" alt="16” x 24” Poster" />
 				</figure>
 				<h1>16” x 24” Poster</h1>
-				<span>457.2 x 609.6mm - rollover <a href="#">here</a> for scale preview</span>
+				<span>457.2 x 609.6mm - rollover <a href="#preview">here</a> for scale preview</span>
 			</li>
 			<li class="large">
 				<figure>
@@ -28,7 +28,7 @@
 					<img src="assets/poster24x36.jpg" width="265" height="179" alt="24” x 36” Poster" />
 				</figure>
 				<h1>24” x 36” Poster</h1>
-				<span>609.6 x 914.4mm - rollover <a href="#">here</a> for scale preview</span>
+				<span>609.6 x 914.4mm - rollover <a href="#preview">here</a> for scale preview</span>
 			</li>
 		</ul>
 		<div class="size-holder">
@@ -73,7 +73,7 @@
 				</li>
 			</ul>
 		</div>
-		<a href="#" class="continue"></a>
+		<a href="#continue" class="continue"></a>
 	</article>
 	<h2 class="two"><span class="step-no"></span><span class="step-title">Email</span><span class="step-complete"></span></h2>
 	<article class="step email two">
@@ -90,7 +90,7 @@
 			<span class="valid-email">Don't worry - we won't share your email address with anyone, ever. Also, we won't spam you.</span>
 			<span class="invalid-email">Please enter a valid email address.</span>
 		</sub>
-		<a href="#" class="continue"></a>
+		<a href="#continue" class="continue"></a>
 	</article>
 	<h2 class="three"><span class="step-no"></span><span class="step-title">Shipping Details</span><span class="step-complete"></span></h2>
 	<article class="step shipping three">
@@ -125,7 +125,7 @@
 		<aside class="total">
 			<strong>Shipping</strong><span class="cost">$0.00</span>
 		</aside>
-		<a href="#" class="continue"></a>
+		<a href="#continue" class="continue"></a>
 	</article>
 	<h2 class="four"><span class="step-no"></span><span class="step-title">Payment</span><span class="step-complete"></span></h2>
 	<article class="step payment four">

@@ -187,6 +187,7 @@ $(function(){
 
 	($accordion = $( "#store-accordion" ).accordion({
 		autoHeight: false,
+		clearStyle: true,
 		event: null
 	})).find('h2').click(function(){
 		openAccordianAt(this);
@@ -229,6 +230,8 @@ $(function(){
 		preview.bounds.bottom = preview.bounds.top + $(this).height();
 		preview.firstOver = true;
 		move($(this).closest('li').find('.preview').show(), e);
+	}).on('click', function(){
+		return false;
 	});
 	$('.poster-examples .preview').on('mousemove', function(e){
 		move($(this), e);
