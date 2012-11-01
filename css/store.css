@@ -21,7 +21,7 @@
 
 .store .header p{
     line-height: 18px;
-    padding: 15px;
+    padding: 20px 0 10px;
 }
 
 .store .header p a{
@@ -33,6 +33,11 @@
 
 .store .header p a:hover{
     text-decoration: none;
+}
+
+.store .header p img{
+    padding: 0 0 3px;
+    border: none;
 } 
 
 .store .step{
@@ -76,7 +81,7 @@
     background: #DDD;
     border: 1px solid #C3C3C3;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .store #content-inner .poster-examples .preview img{
@@ -93,26 +98,41 @@
 
 .store .continue{
     display: block;
-    background: url('../assets/cartsprite.png') no-repeat 0 -185px;
+    background: url('../assets/cartsprite.png') no-repeat 0 -96px;
     clear: both;
     display: block;
-    height: 35px;
     left: -50px;
     margin: 0 auto;
     position: relative;
-    width: 136px;
+    width: 130px;
+    height: 30px;
+    border: 1px solid #DDD;
+    border-bottom: none;
+    cursor: default;
+    transition: 0.4s ease-in-out;
+}
+
+.store .valid .continue{
+    cursor: pointer;
+    border-color: #BBB;
+    background-position: 0 -126px;
+}
+
+.store .valid.no-anim .continue{
+    transition: none;
+}
+
+.store .valid .continue:hover{
+    border-color: #CCC;
+    background-position: 0 -156px;
+}
+
+.store .continue:active{
+    border-color: #999;
 }
 
 .store .size .continue{
     left: -15px;
-}
-
-.store .continue:hover{
-    background-position: 0 -150px;
-}
-
-.store .continue:active{
-    background-position: 0 -219px;
 }
 
 #store-accordion{
@@ -125,13 +145,14 @@
     font-size: 24px;
     height: 46px;
     margin: 0;
-    padding: 0 30px 0 62px;
+    padding: 0 10px 0 62px;
     text-align: left;
-    color: #666;
+    color: #6d6e71;
     background: url('../assets/store-header-repeat.png') repeat-x 0 -1px;
-    cursor: pointer;
+    cursor: default;
     border-left: 1px solid #DDD;
     border-right: 1px solid #DDD;
+    letter-spacing: 0;
 }
 
 #store-accordion h2.ui-state-active{
@@ -140,8 +161,27 @@
     border-right: 1px solid #BBB;
 }
 
+#store-accordion h2 span{
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    -webkit-transition: opacity, color 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+}
+
+/*#store-accordion h2.ui-state-active span{
+    opacity: 1 !important;
+}*/
+
+#store-accordion h2.valid span, #store-accordion h2.active span{
+    opacity: 1;
+}
+
 #store-accordion h2 .step-no{
-    background: url("../assets/cartsprite.png") no-repeat 9px -266px;
+    background: url("../assets/cartsprite.png") no-repeat 9px -196px;
     border-right: 1px solid #F2F2F2;
     display: block;
     height: 45px;
@@ -151,17 +191,28 @@
     width: 61px;
 }
 
+#store-accordion h2.valid .step-no{
+    opacity: 1;
+}
+
+#store-accordion h2.two .step-no{
+    background-position: -55px -196px;
+}
+
+#store-accordion h2.three .step-no{
+    background-position: -120px -196px;
+}
+
+#store-accordion h2.four .step-no{
+    background-position: -184px -196px;
+}
+
 #store-accordion h2 .step-title{
     border-left: 1px solid #DDD;
     height: 46px;
     padding: 9px 0 9px 20px;
     position: relative;
     top: 11px;
-    color: #999;
-}
-
-#store-accordion h2:hover .step-title{
-    color: #888;
 }
 
 #store-accordion h2.ui-state-active .step-title{
@@ -169,43 +220,34 @@
     border-left: 1px solid #BBB;
 }
 
-#store-accordion h2 .step-no.two{
-    background-position: -55px -265px;
-}
-
-#store-accordion h2 .step-no.three{
-    background-position: -120px -265px;
-}
-
-#store-accordion h2 .step-no.four{
-    background-position: -184px -265px;
-}
-
 #store-accordion h2 .step-info{
-    color: #999;
+    color: #808285 !important;
     font-size: 14.5px;
     margin: 10px;
     position: relative;
     top: 11px;
+    font-family: 'M700';
 }
 
-#store-accordion h2.ui-state-active .step-info{
-    color: #666;
-}
-
-#store-accordion h2 .step-right{
-    color: #AAA;
+#store-accordion h2 .step-complete{
     float: right;
-    font-size: 0.8em;
-    margin-top: 14px;
+    margin-top: 6px;
+    width: 30px;
+    height: 30px;
+    background: url('../assets/cartsprite.png') no-repeat -130px -126px;
 }
 
-#store-accordion h2:hover .step-right{
-    color: #999;
+#store-accordion h2.valid .step-complete{
+    opacity: 1;
+    background-position: -130px -96px;
 }
 
-#store-accordion h2.ui-state-active .step-right{
-    color: #CCC !important;
+#store-accordion h2.valid:hover span.step-complete{
+    //opacity: 0.7;
+}
+
+#store-accordion h2.ui-state-active .step-complete{
+
 }
 
 #store-accordion h3{
@@ -293,14 +335,18 @@
 #store-accordion .step.email .match{
     display: block;
     float: left;
-    height: 31px;
-    width: 32px;
-    background: url('../assets/cartsprite.png') no-repeat -227px -152px;
+    height: 30px;
+    width: 30px;
+    background: url('../assets/cartsprite.png') no-repeat -160px -126px;
     margin-top: 28px;
 }
 
-#store-accordion .step.email.matched .match{
-    background-position: -227px -185px;
+#store-accordion .step.email.matching .match{
+    background-position: -160px -156px;
+}
+
+#store-accordion .step.email.matching.valid .match{
+    background-position: -160px -96px;
 }
 
 #store-accordion .step.email sub{
@@ -312,8 +358,34 @@
     text-align: center;
 }
 
+#store-accordion .step.email.invalid sub .valid-email{
+    display: none;
+}
+
+#store-accordion .step.email sub .invalid-email{
+    display: none;
+    font-family: 'M700';
+    color: #e30613;
+}
+
+#store-accordion .step.email.invalid sub .invalid-email{
+    display: block;
+}
+
 #store-accordion .step.shipping{
     padding: 20px 0 0 70px;
+}
+
+#store-accordion .step.shipping .country span{
+    padding-right: 5px;
+}
+
+#store-accordion .step.shipping .required span:after{
+    font-size: 75%;
+    left: 0.2em;
+    top: -0.3em;
+    content: '*';
+    position: relative;
 }
 
 #country, #us-state{
@@ -395,7 +467,7 @@
     display: block;
     width: 230px;
     height: 135px;
-    background: url('../assets/cartsprite.png') no-repeat 0 -322px;
+    background: url('../assets/cartsprite.png') no-repeat 0 -252px;
 }
 
 
@@ -412,23 +484,28 @@
 #checkout{
     margin-top: 20px;
     display: inline-block;
-    width: 258px;
-    height: 50px;
-    background: url('../assets/cartsprite.png') no-repeat 0 -50px;
+    width: 256px;
+    height: 48px;
+    border: 1px solid #BBB;
+    background: url('../assets/cartsprite.png') no-repeat 0 0;
 }
 
 #checkout:hover{
-    background-position: 0 0;
+    border-color: #CCC;
+    background-position: 0 -48px;
 }
 
 #checkout:active{
-    background-position: 0 -100px;
+    border-color: #999;
 }
 
 .sep{
-    clear: both;
-    display: block;
-    height: 40px;
     border-bottom: 1px solid #C3C3C3;
-    margin-bottom: -20px;
+    clear: both;
+    color: #999999;
+    display: block;
+    font-size: 13px;
+    height: 34px;
+    line-height: 1em;
+    margin: 20px 0 -20px;
 }

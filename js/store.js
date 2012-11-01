@@ -1,12 +1,23 @@
+/**
+
+	Use the Global 'order' to retrieve the item and shipping details.
+	eg: 
+		console.log(order.items());
+		console.log(order.shipping());
+
+	The total cost (listed with the items) should be re-calculated on the back end.
+
+**/
+
 $(function(){
 	var order = {
 		extras: {
 			max: 10,
-			surcharge: 10
+			surcharge: 10,
 		},
 		types: {
 			poster_sml: {
-				title: "18x24” Logical Fallacies Poster",
+				title: "16x24” Logical Fallacies Poster",
 				cost: 10,
 				quantity: 0
 			},
@@ -19,8 +30,12 @@ $(function(){
 				cost: 19,
 				quantity: 0
 			}
-		}
+		},
+		shipping: {}
 	}
+
+	var validEmail = /^[a-zA-Z0-9_\.\-]+\@([a-zA-Z0-9\-]+\.)+[a-zA-Z0-9]{2,4}$/;
+	validate();
 
 
 /**
@@ -52,8 +67,14 @@ $(function(){
 **/
 
 	$('.store .email').on('change keyup paste', 'input', function(){
-		if($('.store .email [name=email]').val()===$('.store .email [name=confirm]').val()) $('.store .email').addClass('matched');
-		else $('.store .email').removeClass('matched');
+		if($('#email').val().length && $('.store .email [name=email]').val()===$('.store .email [name=confirm]').val()){
+			$('.store .email').addClass('matching');
+			order.shipping.email = $('#email').val();
+			validate();
+		}else{
+			$('.two').removeClass('matching valid');
+			$('.three').removeClass('active');
+		}
 	});
 
 
@@ -69,9 +90,11 @@ $(function(){
 
 		if(c=="United States"){
 			$('.step.shipping').addClass('us');
+			$('#state').val('');
 			z = 'Zip';
 			s = 'State'
 		}else{
+			$('#us-state').select2("val","")
 			if(c=='Philippines') z = 'Zip';
 			else if(c=='Australia'){
 				z = 'Post';
@@ -86,15 +109,31 @@ $(function(){
 		}
 		setShippingCost(c!="United States");
 		
+		order.shipping.state = '';
+		order.shipping.country = c;
 		$('#store-accordion .step.shipping .state span').text(s);
 		$('#store-accordion .step.shipping .zip span').text(z);
+		validate();
 	});
 
 	$('#us-state').select2({
 		width: 'element'
 	}).on('change', function(e){
-		var s = $(this).val()
+		var s = $(this).val();
+		order.shipping.state = s;
 		setShippingCost(s=='Alaska' || s=='Hawaii');
+		validate();
+	});
+
+	$('.shipping').on('change keyup paste', 'input', function(){
+		if($(this).parent().hasClass('address')){
+			var a = [];
+			$('.shipping .address input').each(function(){
+				if(this.value) a.push(this.value);
+			});
+			order.shipping.address = a.join('\n');
+		}else order.shipping[this.id] = this.value;
+		if($(this).parent().hasClass('required')) validate();
 	});
 
 
@@ -126,6 +165,7 @@ $(function(){
 			if($(this).index()>($(this).parent().val()|0 + remain)) $(this).addClass('remove');
 		});
 		$('.quantity select option.remove').remove();
+		validate();
 	}
 
 	function getCost(type, qty, addSurcharge){
@@ -145,8 +185,19 @@ $(function(){
 	ACCORDIAN
 **/
 
-	$accordion = $( "#store-accordion" ).accordion({
-		autoHeight: false
+	($accordion = $( "#store-accordion" ).accordion({
+		autoHeight: false,
+		event: null
+	})).find('h2').click(function(){
+		openAccordianAt(this);
+	});
+
+	$('a').on('dragstart', function(){
+		return false;
+	});
+
+	$(document).mouseup(function(){
+		$('body').focus();
 	});
 
 	function openNextAccordionPanel(){
@@ -156,9 +207,13 @@ $(function(){
 		$accordion.accordion("activate",next);
 	}
 
+	function openAccordianAt(item){
+		if($(item).hasClass('valid') || $(item).hasClass('active')) $accordion.accordion("activate", $('#store-accordion h2').index(item));
+	}
+
 	$('.step .continue').on('click', function(e){
 		e.preventDefault();
-		openNextAccordionPanel();
+		openAccordianAt($(this).closest('article').next());
 	});
 
 
@@ -187,6 +242,69 @@ $(function(){
 			p.css({left: e.pageX - preview.offset.left - p.width()/2, top: e.pageY - preview.offset.top - p.height()/2})
 		}else{
 			p.hide();
+		}
+	}
+
+
+
+/**
+	VALIDATION
+**/
+
+	function validate(){
+		$('.valid').removeClass('valid no-anim');
+		$('.active').removeClass('active');
+		$('.one').addClass('active');
+		setTimeout(function(){$('.valid').addClass('no-anim')}, 500);
+		
+		//step one: size
+		if(order.types.poster_sml.quantity>0 || order.types.poster_lrg.quantity>0){
+			$('.one').addClass('valid');
+			$('.two').addClass('active');
+		}else return;
+
+		//step two: email
+		if(!$("#email").val().match(validEmail)){
+			if($("#email").val().length) $('article.two').addClass('invalid').removeClass('matched');
+			return;
+		}else{
+			$('article.two').removeClass('invalid');
+			$('.two').addClass('valid');
+			$('.three').addClass('active');
+		}
+
+		//step three: shipping
+		var valid = !!order.shipping.country;
+		$('.required input[id]').each(function(){
+			if(!$(this).val()) valid = false;
+		});
+		if(valid && (order.shipping.country!=="United States" || order.shipping.state!=='')){
+			$('.three').addClass('valid');
+			$('.four').addClass('active');
+		}else return;
+
+
+	}
+
+/**
+	GETTERS
+**/
+	
+	window.order = {
+		items: function(){
+			var o = {};
+			for(var i in order.types){
+				o[i] = order.types[i].quantity;
+			}
+			o.cost = order.total|0;
+			return o;
+		},
+		shipping: function(){
+			var o = {};
+			for(var i in order.shipping){
+				o[i] = order.shipping[i];
+			}
+			return o;
 		}
 	}
 });
