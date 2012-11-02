@@ -791,11 +791,11 @@ footer section span{
 
 .poster #content-inner .buy-accepted{
 	display: block;
-	width: 311px;
+	width: 360px;
 	height: 42px;
 	margin: 0 auto;
 	position: relative;
-	background: url('../assets/buy.png') no-repeat 0 -175px;
+	background: url('../assets/5logos.png') no-repeat 0 0;
 	top: -15px;
 }
 
