@@ -1,9 +1,9 @@
 <h3><?php echo $json['poster']['head']; ?></h3>
 <nav class="pdfs">
 	<ul>
-		<li><a href="https://s3.amazonaws.com/yourlogicalfallacyis/pdf/LogicalFallaciesInfographic_A3.pdf" title="Logical Fallacies Infographic (A3)" target="_blank">A3 Poster</a>420 x 297mm</li>
-		<li><a href="https://s3.amazonaws.com/yourlogicalfallacyis/pdf/LogicalFallaciesInfographic_A2.pdf" title="Logical Fallacies 16x24” Poster" target="_blank">16x24” Poster</a>457 x 609.6mm</li>
-		<li><a href="https://s3.amazonaws.com/yourlogicalfallacyis/pdf/LogicalFallaciesInfographic_A1.pdf" title="Logical Fallacies 24x36” Poster" target="_blank">24x36” Poster</a>609.6 x 914.4mm</li>
+		<li><a href="/pdf/LogicalFallaciesInfographic_A3.pdf" title="Logical Fallacies Infographic (A3)" target="_blank">A3 Poster</a>420 x 297mm</li>
+		<li><a href="/pdf/LogicalFallaciesInfographic_A2.pdf" title="Logical Fallacies 16x24” Poster" target="_blank">16x24” Poster</a>457 x 609.6mm</li>
+		<li><a href="/pdf/LogicalFallaciesInfographic_A1.pdf" title="Logical Fallacies 24x36” Poster" target="_blank">24x36” Poster</a>609.6 x 914.4mm</li>
 	</ul>
 </nav>
 <h3><?php echo $json['poster']['head-sub']; ?></h3>
